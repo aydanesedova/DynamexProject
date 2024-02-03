@@ -183,6 +183,19 @@
         }
     }
 }
+@media only screen and (max-width: 991px) {
+    #calculator{
+        .container{
+            .row{
+                display: flex;
+                flex-direction: column-reverse;
+                .texts{
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+}
 @media only screen and (max-width: 1199px) {
     footer{
         .downloads{
