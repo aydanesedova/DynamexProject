@@ -369,8 +369,8 @@ body {
   padding: 0.5rem 1rem;
   background-color: #fdfaf6;
   border-radius: 0 0 10px 10px;
-  border: 1px solid #e6e6e6;
   border-top: 0;
+  border: none;
   height: 75px;
 }
 #news .news-right .card .detail b {

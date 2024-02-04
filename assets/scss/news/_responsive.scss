@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1438px) {
+    #news{
+        .card{
+            min-width: 31%;
+        }
+    }
+}
+@media only screen and (max-width: 991px) {
+    #news{
+        .card{
+            min-width: 47%;
+        }
+    }
+}
+@media only screen and (min-width: 992px) {
+    #news{
+        .card{
+            &:hover{
+                transform: translateY(-.3rem);
+            }
+        }
+    }
+}
+@media only screen and (max-width: 767px) {
+    #news{
+        overflow-x: hidden;
+        padding: 0rem;
+        .card{
+        width: 80%;
+        }
+       
+    }
+}
