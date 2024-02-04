@@ -1,19 +1,19 @@
 #intro{
-    padding: 3rem 7rem;
     .rates-title{
-        margin-bottom: 1rem;
         b{
             font-size: 35px;
+            min-height: 70px;
         }
     }
     .rates-description{
-        margin-bottom: 3rem;
+        min-height: 130px;
         p{
             font-size: 14px;
             color: #7b7b93;
         }
     }
     .location{
+        margin-bottom: 15px;
         gap: 1.5rem;
         a{
             padding: 7px 20px;

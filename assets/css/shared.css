@@ -786,16 +786,9 @@ footer .footer .address-list li {
   header .top-header .container {
     padding: 0 2rem;
   }
-  header .bottom-header .container {
-    padding: 0 2rem;
-  }
 }
 @media only screen and (max-width: 1199px) {
   header .top-header .container {
-    min-width: 1100px !important;
-  }
-  header .bottom-header .container {
-    padding: 0 1.5rem;
     min-width: 1100px !important;
   }
 }
@@ -803,57 +796,14 @@ footer .footer .address-list li {
   header .top-header .container {
     min-width: 1050px !important;
   }
-  header .bottom-header .container {
-    min-width: 1050px !important;
-  }
-  header .bottom-header .container .nav {
-    justify-content: space-evenly !important;
-  }
-  header .bottom-header .container .nav ul {
-    gap: 2rem !important;
-  }
 }
 @media only screen and (max-width: 1049px) {
   header .top-header .container {
     min-width: 800px !important;
   }
-  header .bottom-header .container {
-    min-width: 800px !important;
-  }
-  header .bottom-header .container .bottom-header-left-side {
-    scale: 90% !important;
-    margin-right: 1rem !important;
-  }
-  header .bottom-header .container .nav {
-    justify-content: space-evenly !important;
-  }
-  header .bottom-header .container .nav ul {
-    gap: 2rem !important;
-  }
-  header .bottom-header .container .bottom-header-right-side {
-    scale: 95% !important;
-    margin-left: 1rem !important;
-  }
 }
 @media only screen and (max-width: 999px) {
   header .top-header {
-    display: none;
-  }
-  header .bottom-header {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  header .bottom-header .container {
-    min-width: 600px !important;
-    margin: 0;
-  }
-  header .bottom-header .container .row .nav {
-    justify-content: space-between !important;
-  }
-  header .bottom-header .bottom-header-left-side {
-    flex-grow: 2;
-  }
-  header .bottom-header .bottom-header-menu li {
     display: none;
   }
 }
@@ -861,53 +811,26 @@ footer .footer .address-list li {
   header .top-header {
     display: none;
   }
-  header .bottom-header .container {
-    margin: 0;
-  }
-  header .bottom-header .container .row .nav {
-    justify-content: space-between !important;
-  }
-  header .bottom-header .bottom-header-left-side {
-    flex-grow: 2;
-  }
 }
 @media only screen and (max-width: 599px) {
   header .top-header {
     display: none;
-  }
-  header .bottom-header .container {
-    min-width: 380px !important;
-    margin: 0;
-  }
-  header .bottom-header .container .row .nav {
-    justify-content: space-between !important;
-  }
-  header .bottom-header .bottom-header-left-side {
-    flex-grow: 2;
-  }
-  header .bottom-header .bottom-header-menu li {
-    display: none;
-  }
-  header .bottom-header .bottom-header-menu .cart {
-    scale: 90% !important;
   }
 }
 @media only screen and (max-width: 499px) {
   header .top-header {
     display: none;
   }
-  header .bottom-header {
-    padding: 0.5rem 0 0.5rem !important;
-  }
-  header .bottom-header .row .nav .bottom-header-left-side {
-    margin: 0 !important;
-    scale: 80% !important;
-  }
-  header .bottom-header .row .nav .bottom-header-right-side {
-    scale: 80% !important;
-  }
-  header .bottom-header .bottom-header-menu li {
+}
+@media screen and (max-width: 601px) {
+  #intro .second-slider .container-fluid .row #carouselExampleControls .carousel-inner .carousel-item .subtitle {
     display: none;
+  }
+  #intro .second-slider .container-fluid .row #carouselExampleControls .carousel-inner .carousel-item .button-wrap {
+    min-height: 40px;
+  }
+  #intro .second-slider .container-fluid .row #carouselExampleControls .carousel-inner .carousel-item .button-wrap a {
+    font-size: 10px;
   }
 }
 @media only screen and (max-width: 991px) {

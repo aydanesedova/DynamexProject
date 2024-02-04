@@ -1,3 +1,5 @@
+// Cursor ucun js
+
 $(document).ready(function(){
     $("#lang-all").click(function(){
         $("#lang-drop-down").toggleClass("open");
