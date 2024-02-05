@@ -98,7 +98,12 @@ body {
     .card-wrap {
         .card {
             transition: .3s ease-in-out;
-            padding: 2rem;
+            padding: 2rem;  
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
 
             &:hover {
                 box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.08);
@@ -106,18 +111,14 @@ body {
             }
 
             img {
-                margin-top: 1rem;
-                width: 5rem;
+                margin-top: 16px;
+                width: 80px;
             }
 
-            padding: 2rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
+
 
             .card-title {
-                margin-top: 1rem;
+                margin-top: 16px;
             }
 
             .card-text {
@@ -175,7 +176,7 @@ body {
 
             .method-type {
                 justify-content: center;
-                gap: 1.25rem;
+                gap: 20px;
                 margin-bottom: 2rem;
 
                 select {
