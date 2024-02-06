@@ -36,6 +36,9 @@
   align-items: center;
   justify-content: center;
 }
+#intro .news-title {
+  min-height: 70px;
+}
 #intro .news-title b {
   font-size: 35px;
 }
@@ -45,4 +48,84 @@
 #intro .news-description p {
   font-size: 14px;
   color: #7b7b93;
+}
+#intro #best_seller {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 600px;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 1rem;
+}
+#intro #best_seller .miniDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 32%;
+}
+#intro #best_seller .miniDiv a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#intro #best_seller .miniDiv a img {
+  width: 65%;
+}
+#intro #best_seller .miniDiv a .markaName {
+  display: flex;
+  align-items: center;
+  width: 65%;
+}
+#intro #best_seller .miniDiv a .markaName h4 {
+  font-size: 13px;
+  display: flex;
+  font-family: source_sans_proregular, sans-serif;
+  font-weight: 700;
+}
+#intro #best_seller .miniDiv a .markaName p {
+  width: 37%;
+  font-family: source_sans_proregular, sans-serif;
+  align-items: center;
+  display: flex;
+  margin-top: 7px;
+  color: #333333;
+  font-weight: 700;
+  font-size: 14px;
+}
+#intro #best_seller .miniDiv a .lowerPrice {
+  color: #bb0000;
+  font-size: 12px;
+  font-family: source_sans_proregular, sans-serif;
+  font-weight: 600;
+  width: 65%;
+}
+#intro #best_seller .miniDiv a p {
+  color: #bb0000;
+  width: 65%;
+  font-size: 14px;
+  font-family: source_sans_proregular, sans-serif;
+  font-weight: 600;
+}
+#intro .see-more {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#intro .see-more button {
+  border: none;
+  width: 11%;
+  min-height: 46px;
+  background-color: #fff;
+  border-radius: 7px;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid black;
+  transition: 0.4s ease;
 }
