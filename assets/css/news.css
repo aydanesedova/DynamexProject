@@ -47,12 +47,18 @@
     width: 48%;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   #intro .container .row .news-title b {
     font-size: 22px;
   }
   #intro .container .row .news-description p {
-    font-size: 10px;
+    font-size: 12px;
+  }
+  #intro .container .row .options-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
   }
   #intro .container .row #best_seller {
     display: flex;
@@ -83,6 +89,12 @@
   }
   #intro .container .row .news-description p {
     font-size: 10px;
+  }
+  #intro .container .row .options-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   #intro .container .row #best_seller {
     display: flex;
@@ -147,9 +159,8 @@
 }
 #intro .options-title .input-title {
   border: 1px solid #ede9e9;
-  border-radius: 5px;
-  min-height: 32px;
-  width: 23%;
+  min-height: 35px;
+  width: 190px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -157,7 +168,7 @@
 #intro .options-title .input-title input {
   outline: none;
   border: none;
-  width: 80%;
+  width: 120px;
   color: #7C7C7C;
   font-size: 14px;
 }
@@ -167,8 +178,8 @@
 }
 #intro .options-title .input-title button {
   border: none;
-  width: 20%;
-  background-color: #fff;
+  background-color: transparent;
+  width: 30px;
 }
 #intro .options-title .input-title button i {
   color: #7C7C7C;

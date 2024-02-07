@@ -61,7 +61,7 @@
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:769px) {
     #intro{
         .container{
             .row{
@@ -72,8 +72,15 @@
                 }
                 .news-description{
                     p{
-                        font-size: 10px;
+                        font-size: 12px;
                     }
+                }
+                .options-title{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 30px;
+                    // background-color: red;
                 }
               #best_seller{
                 display: flex;
@@ -116,6 +123,12 @@
                     p{
                         font-size: 10px;
                     }
+                }
+                .options-title{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                   flex-direction: column;
                 }
               #best_seller{
                 display: flex;
