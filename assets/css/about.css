@@ -213,6 +213,7 @@ nav .bottom-header .bottom-header-list .bottom-header-right-side .sign-in:hover 
 .about-sec .about-story-area .about-story-area-title .year-about {
   font-size: 28px;
   color: #2c2c51;
+  text-align: center;
 }
 .about-sec .about-story-area .about-story-area-text {
   text-align: justify;
@@ -223,24 +224,27 @@ nav .bottom-header .bottom-header-list .bottom-header-right-side .sign-in:hover 
 }
 
 @media only screen and (max-width: 900px) {
+  .about-sec .about-title {
+    min-height: 70px;
+  }
   .about-sec .image-about img {
     width: 650px;
     height: 310px;
   }
 }
-@media only screen and (max-width: 615px) {
+@media only screen and (max-width: 651px) {
   .about-sec .description p {
     font-size: 10px;
   }
   .about-sec .image-about img {
-    width: 350px;
-    height: 200px;
+    width: 450px;
+    height: 300px;
   }
   .about-sec .about-story-area .about-story-area-text p {
     font-size: 12px;
   }
 }
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 453px) {
   .about-sec .image-about img {
     width: 270px;
     height: 150px;

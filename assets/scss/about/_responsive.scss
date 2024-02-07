@@ -1,5 +1,8 @@
 @media only screen and (max-width: 900px) {
     .about-sec {
+        .about-title{
+            min-height: 70px;
+        }
         .image-about {
             img {
                 width: 650px;
@@ -10,7 +13,7 @@
     }
 }
 
-@media only screen and (max-width: 615px) {
+@media only screen and (max-width: 651px) {
     .about-sec {
         .description {
             p {
@@ -20,14 +23,15 @@
 
         .image-about {
             img {
-                width: 350px;
-                height: 200px;
+                width: 450px;
+                height: 300px;
             }
 
         }
-        .about-story-area{
-            .about-story-area-text{
-                p{
+
+        .about-story-area {
+            .about-story-area-text {
+                p {
                     font-size: 12px;
                 }
             }
@@ -35,7 +39,9 @@
     }
 }
 
-@media only screen and (max-width: 415px) {
+
+
+@media only screen and (max-width: 453px) {
     .about-sec {
         .image-about {
             img {
@@ -44,5 +50,7 @@
             }
 
         }
+        
     }
 }
+

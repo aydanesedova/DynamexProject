@@ -1,0 +1,22 @@
+#agreement {
+  text-align: justify;
+}
+#agreement .container {
+  width: 60%;
+}
+#agreement .container .agreement-title {
+  margin-bottom: 3rem;
+}
+#agreement .container .agreement-title b {
+  font-size: 35px;
+}
+#agreement .container .agreement-content {
+  font-size: 15px;
+}
+#agreement .container .agreement-content .part {
+  margin-bottom: 3rem;
+}
+#agreement .container .agreement-content .part a {
+  font-size: 15px;
+  color: #fd475d;
+}

@@ -128,6 +128,51 @@
   font-size: 14px;
   color: #7b7b93;
 }
+#intro .options-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 5.8rem;
+  justify-content: space-between;
+}
+#intro .options-title .options {
+  cursor: pointer;
+  color: #7C7C7C;
+  font-size: 14px;
+  border: 1px solid #ede9e9 !important;
+}
+#intro .options-title .options .option-button {
+  font-size: 14px;
+  color: #7C7C7C;
+}
+#intro .options-title .input-title {
+  border: 1px solid #ede9e9;
+  border-radius: 5px;
+  min-height: 32px;
+  width: 23%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#intro .options-title .input-title input {
+  outline: none;
+  border: none;
+  width: 80%;
+  color: #7C7C7C;
+  font-size: 14px;
+}
+#intro .options-title .input-title input::placeholder {
+  font-size: 14px;
+  color: #7C7C7C;
+}
+#intro .options-title .input-title button {
+  border: none;
+  width: 20%;
+  background-color: #fff;
+}
+#intro .options-title .input-title button i {
+  color: #7C7C7C;
+}
 #intro #best_seller {
   display: flex;
   align-items: center;

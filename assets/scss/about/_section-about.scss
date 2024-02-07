@@ -245,7 +245,6 @@ nav {
     .about-story-area{
        min-height: 870px;
        display: flex;
-    //    background-color: red;
        justify-content: center;
         flex-direction: column;
         .about-story-area-title{
@@ -253,6 +252,8 @@ nav {
             .year-about{
                 font-size: 28px;
                 color: #2c2c51;
+                text-align: center;
+               
             }
         }
         .about-story-area-text{

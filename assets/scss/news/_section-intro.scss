@@ -23,6 +23,53 @@
         }
     }
 
+.options-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding:0 5.8rem;
+    justify-content: space-between;
+    .options{
+        cursor: pointer;
+        color: #7C7C7C;
+        font-size: 14px;
+        border: 1px solid #ede9e9 !important;
+      .option-button{
+        font-size: 14px;
+        color: #7C7C7C;
+      }
+    }
+    .input-title{
+        border: 1px solid #ede9e9;
+        border-radius: 5px;
+        min-height: 32px;
+        width: 23%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        input{
+            outline: none;
+            border: none;
+            width: 80%;
+            color: #7C7C7C;
+            font-size: 14px;
+            &::placeholder{
+                font-size: 14px;
+        color: #7C7C7C;
+
+            }
+        }
+        button{
+            border: none;
+            width: 20%;
+            background-color: #fff;
+            i{
+                color: #7C7C7C;
+            }
+        }
+    }
+}
+
     #best_seller {
         display: flex;
         align-items: center;
