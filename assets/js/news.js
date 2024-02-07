@@ -2,10 +2,6 @@
 let bestSeller = document.getElementById("best_seller");
 let seeMore = document.getElementById("see-more");
 
-
-let page = 1;
-let limit = 3;
-
 const renderData = async () => {
   
   const res = await fetch(
@@ -17,19 +13,21 @@ const renderData = async () => {
     let miniDiv = document.createElement("div");
     miniDiv.className = "miniDiv";
     miniDiv.innerHTML = `
-                        <a href="${item.link}" target="_blank">
-                         <img src="${item.image}" alt="${item.name}">
-                         <div class="markaName">
-                         </a>
-
-
+    <a href="${item.link}" target="_blank">
+    <img src="${item.image}" alt="${item.name}">
+    <div class="markaName">  
+    <p>${item.marka}</p>
+    <h4>${item.name}</h4>
+    </div>
+    <p class= "lowerPrice"><i class="fa-regular fa-arrow-trend-down"></i> Son 30 Günün En Düşük Fiyatı!</p>
+    <p>${item.price} TL</p>
+    
+    </a>
     `;
     bestSeller.append(miniDiv);
   });
-  // page++;
 };
 
-seeMore.addEventListener("click", renderData);
 
 window.onload = () => {
   renderData();

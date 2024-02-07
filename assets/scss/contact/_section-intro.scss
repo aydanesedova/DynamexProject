@@ -1,15 +1,17 @@
 #intro{
-    padding: 3rem 7rem;
+    min-height: 170px;
+
     .contact-title{
         margin-bottom: 1rem;
         b{
             font-size: 35px;
+            text-align: center;
         }
     }
     .contact-description{
-        margin-bottom: 1rem;
         p{
             font-size: 14px;
+            text-align: center;
             color: #7b7b93;
         }
     }

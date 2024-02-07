@@ -10,6 +10,7 @@
 
         b {
             font-size: 35px;
+            text-align: center;
         }
     }
 
@@ -31,62 +32,66 @@
         flex-wrap: wrap;
         gap: 5px;
         margin-top: 1rem;
+        margin-bottom: 1rem;
 
         .miniDiv {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-            width: 32%;
-a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    img {
-        width: 65%;
-    }
-
-    .markaName {
-        display: flex;
-        align-items: center;
-        width: 65%;
-
-        h4 {
-            font-size: 13px;
             display: flex;
-            font-family: source_sans_proregular, sans-serif;
-            font-weight: 700;
-        }
-
-        p {
-            width: 37%;
-            font-family: source_sans_proregular, sans-serif;
             align-items: center;
-            display: flex;
-            margin-top: 7px;
-            color: #333333;
-            font-weight: 700;
-            font-size: 14px;
-        }
-    }
-    .lowerPrice{
-        color: #bb0000;
-        font-size: 12px;
-        font-family: source_sans_proregular, sans-serif;
-        font-weight: 600;
-        width: 65%;
-    }
+            justify-content: center;
+            flex-direction: column;
+            width: 32%;
 
-    p {
-        color: #bb0000;
-        width: 65%;
-        font-size: 14px;
-        font-family: source_sans_proregular, sans-serif;
-        font-weight: 600;
-    }
-}
-     
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                img {
+                    width: 65%;
+                }
+
+                .markaName {
+                    display: flex;
+                    align-items: center;
+                    width: 65%;
+
+                    h4 {
+                        font-size: 13px;
+                        display: flex;
+                        font-family: source_sans_proregular, sans-serif;
+                        font-weight: 700;
+                    }
+
+                    p {
+                        width: 37%;
+                        font-family: source_sans_proregular, sans-serif;
+                        align-items: center;
+                        display: flex;
+                        margin-top: 7px;
+                        color: #333333;
+                        font-weight: 700;
+                        font-size: 14px;
+                    }
+                }
+
+                .lowerPrice {
+                    color: #bb0000;
+                    font-size: 12px;
+                    font-family: source_sans_proregular, sans-serif;
+                    font-weight: 600;
+                    width: 65%;
+                }
+
+                p {
+                    color: #bb0000;
+                    width: 65%;
+                    font-size: 14px;
+                    font-family: source_sans_proregular, sans-serif;
+                    font-weight: 600;
+                }
+            }
+
         }
     }
 

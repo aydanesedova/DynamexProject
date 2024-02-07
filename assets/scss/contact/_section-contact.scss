@@ -1,5 +1,4 @@
 #contact{
-    padding: 3rem 7rem 0rem;
     .info{
         margin-bottom: 3rem;
         .info-title{
@@ -41,20 +40,38 @@
                 background-color: #ecccf4;
             }
         }
+        .hours-list{
+            display: flex;
+            align-items: center;
+            margin-top: 1rem;
+            justify-content: center;
+            p{
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 13px;
+                color: #7b7b93;
+                font-weight: 400;
+                &:hover{
+                    color: #606070;
+                }
+            }
+        }
         .socials{
             display: flex;
             gap: 10px;
-            margin-bottom: 1rem;
             .social{
-                padding-top: 9px;
-                padding-bottom: 9px;
-                padding-left: 9.9px;
-                padding-right: 9.9px;
-                border: 1.2px solid #34345e;
+               width: 40px;
+               margin-top: 1rem;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               height: 40px;
+               background-color: #ececf3;
                 border-radius: 50%;
+                font-size: 14px;
+                color: #c4c2c2;
+                transition: 0.4s ease;
                 &:hover{
-                    border: 1.2px solid #fd475d;
-                    color: #fd475d;
+                    color: #fff;
                     transition: .1s ease-in-out;
                     background-color: #fd475d;
                 }
