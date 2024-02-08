@@ -713,7 +713,8 @@ footer .footer h3 {
   font-size: 18px;
   margin-bottom: 3rem;
 }
-footer .footer .address-title, footer .footer .downloads-title {
+footer .footer .address-title,
+footer .footer .downloads-title {
   margin-top: 3rem;
   margin-bottom: 1rem;
 }
@@ -737,22 +738,26 @@ footer .footer .socials .social {
   border-radius: 50%;
 }
 footer .footer .socials .social:hover {
-  border: 1.2px solid #fd475d;
-  color: #fd475d;
+  background-color: #fd475d;
+  color: #fff;
   transition: 0.1s ease-in-out;
 }
-footer .footer .menu-list, footer .footer .help-list {
+footer .footer .menu-list,
+footer .footer .help-list {
   padding: 0;
   margin: 0;
 }
-footer .footer .menu-list li, footer .footer .help-list li {
+footer .footer .menu-list li,
+footer .footer .help-list li {
   list-style: none;
   margin-bottom: 1rem;
 }
-footer .footer .menu-list li a, footer .footer .help-list li a {
+footer .footer .menu-list li a,
+footer .footer .help-list li a {
   font-size: 16px;
 }
-footer .footer .menu-list li a:hover, footer .footer .help-list li a:hover {
+footer .footer .menu-list li a:hover,
+footer .footer .help-list li a:hover {
   color: #fd475d;
   text-decoration: underline;
   transition: 0.2s ease-in-out;

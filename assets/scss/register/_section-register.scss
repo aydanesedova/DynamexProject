@@ -1,16 +1,19 @@
-#register{
+#register {
     padding: 2rem 0 8rem;
-    .left{
-        .title{
+
+    .left {
+        .title {
             text-align: center;
             font-weight: bold;
             font-size: 18px;
         }
-        .customer-cat{
+
+        .customer-cat {
             margin: 3rem 0 2rem;
             display: flex;
             gap: 2rem;
             justify-content: center;
+
             .person {
                 display: flex;
                 font-size: 14px;
@@ -20,91 +23,110 @@
                 user-select: none;
                 -moz-user-select: none;
                 -webkit-user-select: none;
-                span{
+
+                span {
                     padding: 0;
                     margin-left: .3rem;
                     color: #94949f;
                     transition: .1s;
                 }
-                &:hover{
+
+                &:hover {
                     cursor: pointer;
                     color: #f5a416;
-                    span{
+
+                    span {
                         color: #f5a416;
                     }
                 }
             }
-            .selected{
+
+            .selected {
                 cursor: pointer;
                 color: #f5a416;
                 background-color: #fef5e9;
                 transition: .2s ease-in-out;
-                span{
+
+                span {
                     color: #f5a416;
                 }
             }
-            
+
         }
-        .form{
-            .form-comp{
+
+        .form {
+            .form-comp {
                 gap: 1.5rem;
                 display: flex;
                 margin: 1rem 0 0 .5rem;
-                justify-content: center;    
+                justify-content: center;
             }
-            input{
+
+            input {
                 padding: .5rem;
                 font-size: 15px;
                 border: 1px solid #cecee2;
                 border-radius: 5px;
                 outline: none;
+
                 &:focus::placeholder {
                     color: transparent;
                 }
             }
-            select{
-                height: 100%; 
+
+            select {
+                height: 100%;
                 padding: .2rem;
-                cursor: pointer; 
-                font-size: 14px; 
-                color: #747474; 
-                border-radius: 5px; 
-                background-color: white; 
+                cursor: pointer;
+                font-size: 14px;
+                color: #747474;
+                border-radius: 5px;
+                background-color: white;
                 border: 1px solid #cecee2;
             }
-            .nationality{
+
+            .nationality {
                 width: 100%;
             }
-            .id-type{
+
+            .id-type {
                 border-radius: 5px 0 0 5px;
             }
-            .id-number{
-                width: 80%; 
+
+            .id-number {
+                width: 80%;
                 height: 100%;
-                border-radius: 0 5px 5px 0; 
+                border-radius: 0 5px 5px 0;
                 background-color: white;
-                border: 1px solid #cecee2; 
+                border: 1px solid #cecee2;
                 border-left: 0;
             }
-            .city, .branch{
+
+            .city,
+            .branch {
                 padding: .7rem 0.2rem;
             }
-            .address{
+
+            .address {
                 width: 129.4%;
             }
-            .btn-wrap{
+
+            .btn-wrap {
                 margin-top: 2rem;
-                .register{
+
+                .register {
                     background-color: #fd475d;
-                    padding: .5rem 3.5rem; 
-                    border-radius: 10px; 
+                    padding: .5rem 3.5rem;
+                    border-radius: 10px;
                     color: white;
                     transition: 0.2s;
-                    &:hover{
+
+                    &:hover {
                         transform: translate(0%, -1%);
                         box-shadow: 0px 2px 5px 1px #8D8D8D;
                     }
-                    &:active{
+
+                    &:active {
                         transform: translate(0%, 2%);
                         box-shadow: none;
                     }
@@ -112,15 +134,18 @@
             }
         }
     }
-    .right{
+
+    .right {
         display: flex;
         align-items: center;
         justify-content: start;
         flex-direction: column;
-        img{
+
+        img {
             margin-top: 7rem;
         }
-        .text{
+
+        .text {
             margin-top: 1rem;
         }
     }

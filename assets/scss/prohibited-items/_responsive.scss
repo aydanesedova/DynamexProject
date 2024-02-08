@@ -1,26 +1,29 @@
 @media screen and (max-width:414px) {
-    #prohibited-items{
-        .container{
-            .row{
-                .prohibited-items-title{
-                    b{
+    #prohibited-items {
+        .container {
+            .row {
+                .prohibited-items-title {
+                    b {
                         font-size: 18px;
                     }
                 }
-                .prohibited-items-description{
-                    p{
+
+                .prohibited-items-description {
+                    p {
                         font-size: 10px;
                     }
                 }
-                .prohibited-items-list{
-                    ul{
-                        li{
+
+                .prohibited-items-list {
+                    ul {
+                        li {
                             font-size: 12px;
                         }
                     }
                 }
-                .note{
-                    b{
+
+                .note {
+                    b {
                         font-size: 10px;
                     }
                 }

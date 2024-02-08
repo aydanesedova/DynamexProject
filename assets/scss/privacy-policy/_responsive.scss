@@ -1,31 +1,36 @@
 @media screen and (max-width:700px) {
-    #privacy-policy{
-        .container{
-            .row{
-                .privacy-policy-title{
-                    b{
+    #privacy-policy {
+        .container {
+            .row {
+                .privacy-policy-title {
+                    b {
                         font-size: 28px;
                     }
                 }
-                .privacy-policy-content{
-                    .intro{
-                        p{
+
+                .privacy-policy-content {
+                    .intro {
+                        p {
                             font-size: 13px;
                         }
                     }
-                    .common{
-                        b{
+
+                    .common {
+                        b {
                             font-size: 13px;
                         }
-                        p{
+
+                        p {
                             font-size: 13px;
                         }
                     }
-                    .safety{
-                        b{
+
+                    .safety {
+                        b {
                             font-size: 13px;
                         }
-                        p{
+
+                        p {
                             font-size: 13px;
                         }
                     }
@@ -37,34 +42,40 @@
 
 
 @media screen and (max-width:464px) {
-    #privacy-policy{
-        .container{
+    #privacy-policy {
+        .container {
             width: 80%;
-            .row{
-                .privacy-policy-title{
-                    b{
+
+            .row {
+                .privacy-policy-title {
+                    b {
                         font-size: 22px;
                     }
                 }
-                .privacy-policy-content{
-                    .intro{
-                        p{
+
+                .privacy-policy-content {
+                    .intro {
+                        p {
                             font-size: 11px;
                         }
                     }
-                    .common{
-                        b{
+
+                    .common {
+                        b {
                             font-size: 11px;
                         }
-                        p{
+
+                        p {
                             font-size: 11px;
                         }
                     }
-                    .safety{
-                        b{
+
+                    .safety {
+                        b {
                             font-size: 11px;
                         }
-                        p{
+
+                        p {
                             font-size: 11px;
                         }
                     }

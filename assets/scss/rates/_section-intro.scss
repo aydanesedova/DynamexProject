@@ -1,37 +1,44 @@
-#intro{
-    .rates-title{
-        b{
+#intro {
+    .rates-title {
+        b {
             font-size: 35px;
             min-height: 70px;
         }
     }
-    .rates-description{
+
+    .rates-description {
         min-height: 130px;
-        p{
+
+        p {
             font-size: 14px;
             color: #7b7b93;
         }
     }
-    .location{
+
+    .location {
         margin-bottom: 15px;
         gap: 1.5rem;
-        a{
+
+        a {
             padding: 7px 20px;
             font-size: 17px;
             border-radius: 5px;
             transition: .2s ease-in-out;
-            &:hover{
+
+            &:hover {
                 background-color: #fef5e9;
                 border-radius: 5px;
                 color: #fd475d;
             }
-            &:focus{
+
+            &:focus {
                 background-color: #fd475d;
                 border-radius: 5px;
                 color: white;
             }
         }
-        .active{
+
+        .active {
             background-color: #fd475d;
             border-radius: 5px;
             color: white;

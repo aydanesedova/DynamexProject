@@ -1,31 +1,37 @@
 @media only screen and (max-width: 999px) {
-    .right{
+    .right {
         display: none !important;
     }
 }
+
 @media only screen and (max-width: 599px) {
-    #intro{
-        .register-description{
+    #intro {
+        .register-description {
             margin-bottom: 1rem;
         }
-        b{
+
+        b {
             font-size: 18px !important;
         }
-        p{
+
+        p {
             font-size: 16px !important;
         }
     }
-    .left{
-        .customer-cat{
-            .person{
-                padding: .5rem 1rem!important;
-                span{
+
+    .left {
+        .customer-cat {
+            .person {
+                padding: .5rem 1rem !important;
+
+                span {
                     font-size: 12px;
                 }
             }
         }
-        .title{
-            b{
+
+        .title {
+            b {
                 font-size: 18px !important;
             }
         }

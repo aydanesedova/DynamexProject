@@ -1,27 +1,32 @@
-#prohibited-items{
-    .prohibited-items-title{
+#prohibited-items {
+    .prohibited-items-title {
         // background-color: red;
         min-height: 60px;
         display: flex;
         align-items: center;
         text-align: center;
-        b{
+
+        b {
             font-size: 35px;
         }
     }
-    .prohibited-items-description{
+
+    .prohibited-items-description {
         margin-bottom: 2rem;
         // background-color: pink;
         text-align: center;
-        p{
+
+        p {
             font-size: 14px;
             color: #7b7b93;
         }
     }
-    .prohibited-items-country{
+
+    .prohibited-items-country {
         border-bottom: 1px solid #f8f8f8;
         margin-bottom: 5rem;
-        .country-badge{
+
+        .country-badge {
             display: flex;
             align-items: center;
             gap: .5rem;
@@ -33,8 +38,9 @@
             cursor: pointer;
         }
     }
-    .prohibited-items-list{
-        li{
+
+    .prohibited-items-list {
+        li {
             list-style: none;
             display: flex;
             align-items: center;
@@ -44,13 +50,14 @@
             column-rule: black;
             margin-bottom: 1rem;
         }
-  
+
     }
-    .note{
-    min-height: 110px;
-    width: 100%;
-    display: flex;
-    padding-left: 30px;
+
+    .note {
+        min-height: 110px;
+        width: 100%;
+        display: flex;
+        padding-left: 30px;
 
     }
 }

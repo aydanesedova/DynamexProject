@@ -1,28 +1,34 @@
-#login{
+#login {
     // background-color: red;
-    min-height:570px ;
+    min-height: 570px;
     display: flex;
     align-items: start;
     justify-content: center;
-    .left{
-        .title{
+
+    .left {
+        .title {
             text-align: center;
             font-size: 22px;
         }
-        .form{
-            .form-group{
+
+        .form {
+            .form-group {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 margin-top: 2rem;
-                .email, .password{
+
+                .email,
+                .password {
                     width: 50%;
-                    label{
+
+                    label {
                         font-size: 15px;
                         margin-left: .5rem;
                         margin-bottom: 5px;
                     }
-                    input{
+
+                    input {
                         width: 100%;
                         height: 45px;
                         border: 1px solid #cecee2;
@@ -32,7 +38,8 @@
                         position: relative;
                         outline: none;
                     }
-                    .hidden{
+
+                    .hidden {
                         color: #fd475d;
                         font-size: 12px;
                         float: right;
@@ -41,10 +48,12 @@
                         -webkit-user-select: none;
                     }
                 }
-                .remember{
-                    width:48%;
+
+                .remember {
+                    width: 48%;
                 }
-                button{
+
+                button {
                     margin-top: 1rem;
                     width: 50%;
                     height: 45px;
@@ -57,41 +66,48 @@
                     cursor: pointer;
                     outline: none;
                 }
-                .reset{
+
+                .reset {
                     margin-top: 1rem;
                     color: #15b2ec;
                 }
             }
         }
     }
-    .right{
+
+    .right {
         // background-color: #15b2ec;
         display: flex;
         align-items: center;
         justify-content: end;
         flex-direction: column;
-        .login-image-wrap{
+
+        .login-image-wrap {
             display: flex;
             justify-content: center;
             align-items: center;
-        
-            .login-image{
+
+            .login-image {
                 width: 100%;
             }
         }
-        .text{
+
+        .text {
             margin-top: 2rem;
             text-align: center;
             user-select: none;
-            span{
+
+            span {
                 font-size: 13px;
             }
-            a{
+
+            a {
                 margin-left: .5rem;
                 color: #15b2ec;
                 font-weight: bold;
                 font-size: 13px;
-                &:hover{
+
+                &:hover {
                     text-decoration: underline;
                 }
             }

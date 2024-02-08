@@ -1,4 +1,4 @@
-.modal-wrapper{
+.modal-wrapper {
     position: fixed;
     top: 0;
     left: 0;
@@ -8,11 +8,13 @@
     z-index: 1;
     display: block;
     overflow: hidden;
-    .modal{
+
+    .modal {
         display: flex;
         justify-content: center;
         align-items: center;
-        .modal-cont{
+
+        .modal-cont {
             padding: 1rem;
             width: 30%;
             height: 50%;
@@ -20,18 +22,21 @@
             border: 1px solid #ccc;
             background-color: whitesmoke;
             z-index: -1;
-            .close{
+
+            .close {
                 width: 1.5rem;
                 height: 1.5rem;
                 border-radius: 50%;
                 cursor: pointer;
                 transition: .1s ease-in-out;
                 color: #8D8D8D;
-                &:hover{
+
+                &:hover {
                     color: #fd475d;
                 }
             }
-            .m-title{
+
+            .m-title {
                 margin-top: .5rem;
                 display: flex;
                 justify-content: center;
@@ -39,48 +44,57 @@
                 font-size: 20px;
                 font-weight: bold;
             }
-            .m-hint{
+
+            .m-hint {
                 display: flex;
                 margin-top: 1rem;
                 justify-content: center;
                 text-align: center;
                 font-size: 13px;
-                p{
+
+                p {
                     margin: 0;
                     padding: 0;
                 }
             }
         }
-        .m-body{
+
+        .m-body {
             height: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
             overflow: hidden;
-            form{
+
+            form {
                 margin-top: 1rem;
                 display: flex;
                 flex-direction: column;
-                input{
+
+                input {
                     outline: none;
                     padding: .5rem;
                     border-radius: 10px;
                     border: 1px solid #ccc;
                 }
-                .btn-wrap{
+
+                .btn-wrap {
                     margin-top: 2rem;
-                    .register{
+
+                    .register {
                         background-color: #fd475d;
                         padding: .5rem;
                         width: 100%;
-                        border-radius: 10px; 
+                        border-radius: 10px;
                         color: white;
                         transition: 0.3s;
-                        &:hover{
+
+                        &:hover {
                             transform: translate(0%, -1%);
                             box-shadow: 0px 2px 5px 1px #8D8D8D;
                         }
-                        &:active{
+
+                        &:active {
                             transform: translate(0%, 2%);
                             box-shadow: none;
                         }

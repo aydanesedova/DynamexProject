@@ -1,77 +1,96 @@
-footer{
+footer {
     background-color: #2c2c51;
-    .footer{
+
+    .footer {
         padding-left: 3rem;
         padding-right: 3rem;
-        h3{
+
+        h3 {
             color: white;
             font-size: 18px;
             margin-bottom: 3rem;
         }
-        .address-title, .downloads-title{
+
+        .address-title,
+        .downloads-title {
             margin-top: 3rem;
             margin-bottom: 1rem;
         }
-        p{
+
+        p {
             color: #7b7b93;
         }
-        .white-logo:hover{
+
+        .white-logo:hover {
             filter: brightness(80%);
         }
-        .socials{
+
+        .socials {
             display: flex;
             gap: 10px;
             margin-bottom: 1rem;
-            .social{
+
+            .social {
                 padding-top: 9px;
                 padding-bottom: 9px;
                 padding-left: 9.9px;
                 padding-right: 9.9px;
                 border: 1.2px solid #34345e;
                 border-radius: 50%;
-                &:hover{
-                    border: 1.2px solid #fd475d;
-                    color: #fd475d;
+
+                &:hover {
+                    background-color: #fd475d;
+                    color: #fff;
                     transition: .1s ease-in-out;
                 }
             }
         }
 
-        .menu-list, .help-list{
+        .menu-list,
+        .help-list {
             padding: 0;
             margin: 0;
-            li{
+
+            li {
                 list-style: none;
                 margin-bottom: 1rem;
-                a{
+
+                a {
                     font-size: 16px;
                 }
-                a:hover{
+
+                a:hover {
                     color: #fd475d;
                     text-decoration: underline;
                     transition: 0.2s ease-in-out;
                 }
             }
         }
-        .contact-list{
+
+        .contact-list {
             margin: 0;
             padding: 0;
-            li{
+
+            li {
                 list-style: none;
                 margin-bottom: 1rem;
-                a{
+
+                a {
                     font-size: 16px;
                 }
-                a:hover{
+
+                a:hover {
                     color: #fd475d;
                     transition: 0.2s ease-in-out;
                 }
             }
         }
-        .address-list{
+
+        .address-list {
             margin: 0;
             padding: 0;
-            li{
+
+            li {
                 // list-style: none;
                 margin-bottom: 1rem;
                 color: #7b7b93;
