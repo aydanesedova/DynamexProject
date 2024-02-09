@@ -12,6 +12,7 @@
         }
 
         .form {
+            padding-bottom: 1rem;
             .form-group {
                 display: flex;
                 flex-direction: column;
@@ -77,6 +78,7 @@
 
     .right {
         // background-color: #15b2ec;
+        padding-bottom: 1rem;
         display: flex;
         align-items: center;
         justify-content: end;

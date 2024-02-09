@@ -331,6 +331,7 @@ body {
 }
 #news .news-left .news-title {
   font-size: 30px;
+  text-align: center;
 }
 #news .news-left .news-desc {
   color: grey;
@@ -844,6 +845,26 @@ footer .footer .address-list li {
   }
   #calculator .container .row .texts {
     margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 419px) {
+  #delivery .methods a {
+    font-size: 12px;
+  }
+  #delivery .rate-wrapper .rate .condition b {
+    font-size: 10px;
+  }
+  #delivery .rate-wrapper .rate .detail .normal .title {
+    font-size: 9px;
+  }
+  #delivery .rate-wrapper .rate .detail .normal .price {
+    font-size: 9px;
+  }
+  #delivery .rate-wrapper .rate .detail .liquid .title {
+    font-size: 9px;
+  }
+  #delivery .rate-wrapper .rate .detail .liquid .price {
+    font-size: 9px;
   }
 }
 @media only screen and (max-width: 1199px) {

@@ -5,8 +5,9 @@
   width: 60%;
 }
 #agreement .container .agreement-title {
-  background-color: red;
   text-align: center;
+  padding-top: 1.9rem;
+  padding-bottom: 1.9rem;
 }
 #agreement .container .agreement-title b {
   font-size: 35px;
