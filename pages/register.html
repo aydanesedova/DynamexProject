@@ -114,7 +114,7 @@
                                     <span>Hüquqi şəxs</span>
                                 </div>
                             </div>
-                            <form method="post" action="https://httpbin.org/post" class="form col-12 natural-person">
+                            <form method="post" class="form col-12 natural-person" id="registerForm">
                                 <div class="form-comp">
                                     <div class="form-group col-5 d-flex flex-column">
                                         <input type="text" id="name" name="name" placeholder="Ad" min="3" max="12" required>
@@ -129,7 +129,7 @@
                                     </div>
                                     <div class="form-group col-5 d-flex">
                                         <select name="phone-number-code" id="phone-number" class="id-type" required>
-                                            <option value="050">050</option>
+                                            <option>050</option>
                                             <option value="051">051</option>
                                             <option value="055">055</option>
                                             <option value="099">099</option>
@@ -138,7 +138,7 @@
                                             <option value="060">060</option>
                                             <option value="010">010</option>
                                         </select>
-                                        <input type="text" id="phone-number" name="phone-number" class="id-number" minlength="7" maxlength="7" placeholder="Mobil nömrə" required>
+                                        <input type="text" id="phone-number-end" name="phone-number" class="id-number" minlength="7" maxlength="7" placeholder="Mobil nömrə" required>
                                     </div>
                                 </div>
                                 <div class="form-comp">
@@ -270,7 +270,7 @@
                                         <input type="password" name="password" id="password" placeholder="Şifrə" minlength="8" maxlength="30" required>
                                     </div> 
                                     <div class="form-group col-5 d-flex flex-column">
-                                        <input type="password" name="conf-password" id="password" placeholder="Təkrar şifrə" minlength="8" maxlength="30" required>
+                                        <input type="password" name="conf-password" id="confirmPassword" placeholder="Təkrar şifrə" minlength="8" maxlength="30" required>
                                     </div>
                                 </div>
                                 <div class="form-comp">
@@ -468,7 +468,6 @@
                 </div>
             </div>
         </section>
-        <!-- SECTIONS END -->
     </main>
     <footer>
         <div class="container footer">
@@ -590,6 +589,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js" integrity="sha512-lYMiwcB608+RcqJmP93CMe7b4i9G9QK1RbixsNu4PzMRJMsqr/bUrkXUuFzCNsRUo3IXNUr5hz98lINURv5CNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

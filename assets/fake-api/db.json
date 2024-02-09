@@ -206,6 +206,90 @@
       "phone": "777",
       "email": "sd2d2n2qh@code.edu.az",
       "message": "Salam"
+    },
+    {
+      "id": "33b2",
+      "name": "Aydan",
+      "email": "camal@camal.com"
+    },
+    {
+      "id": "6c13",
+      "name": "Aydan",
+      "email": "aydan@gmail.com"
+    },
+    {
+      "id": "fa1d",
+      "name": "Leyla",
+      "email": "lievaleyla782@gmail.com"
+    },
+    {
+      "id": "f85f",
+      "name": "Aynure",
+      "surname": "Huseynova",
+      "phone": "11",
+      "email": "sd2d2n2qh@code.edu.az",
+      "message": "Salam"
+    }
+  ],
+  "register": [
+    {
+      "id": "1",
+      "name": "Aydan",
+      "surname": "Esed",
+      "phone": "704058363",
+      "email": "aydanesedova@gmail.com",
+      "date": "30.11.2003"
+    },
+    {
+      "id": "4adc",
+      "name": "FIlyar",
+      "surname": "Mirzeyeva",
+      "email": "11111111111111111111@gmail",
+      "phoneNumber": "050null",
+      "birthDate": "275760-05-05",
+      "nationality": "resident",
+      "idType": "AZE",
+      "idNumber": "55555555",
+      "idPin": "5555555",
+      "city": "AGS",
+      "branch": "28may",
+      "address": "55555555555",
+      "password": "55555555555",
+      "confPassword": "55555555555"
+    },
+    {
+      "id": "4f88",
+      "name": "Ayhan",
+      "surname": "Esedov",
+      "email": "aydan@gmail.com",
+      "phoneNumber": "050null",
+      "birthDate": "2222-02-22",
+      "nationality": "resident",
+      "idType": "AZE",
+      "idNumber": "22222222",
+      "idPin": "2222222",
+      "city": "AGC",
+      "branch": "Ganaja",
+      "address": "222222222222222222",
+      "password": "222222222222222222",
+      "confPassword": "222222222222222222"
+    },
+    {
+      "id": "2d6b",
+      "name": "Aydan",
+      "surname": "Esedova",
+      "email": "sd2d2n2qh@code.edu.az",
+      "phoneNumber": "050null",
+      "birthDate": "2222-02-22",
+      "nationality": "resident",
+      "idType": "AZE",
+      "idNumber": "11111111",
+      "idPin": "1111111",
+      "city": "AGS",
+      "branch": "Ganaja",
+      "address": "11111111111111",
+      "password": "11111111111111",
+      "confPassword": "11111111111111"
     }
   ]
 }

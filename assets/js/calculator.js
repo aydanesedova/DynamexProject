@@ -1,5 +1,23 @@
+// $(document).ready(function(){
+//     $(".calculate").click(function(){
+//         let dimensions = [];
+//             dimensions.push(parseInt($("#width").val()));
+//             dimensions.push(parseInt($("#length").val()));
+//             dimensions.push(parseInt($("#height").val()));
+//             dimensions.push(parseFloat($("#weight").val()));
 
-// Calculator cekiye gore hesablanir
+//         Calculate(dimensions);
+
+//         function Calculate (dimensions){
+//             $("#result").text("0.00");
+//             let result = dimensions[0] + dimensions[1] + dimensions[2] + dimensions[3];
+//             var countUp = new CountUp("result", 0.00, result, 2, 0.4);
+//             countUp.start();
+//         }
+//     });
+// }); 
+
+
 document.addEventListener('DOMContentLoaded', function () {
     var calculateBtn = document.querySelector('.calculate');
 
@@ -9,17 +27,18 @@ document.addEventListener('DOMContentLoaded', function () {
         var heightInput = document.getElementById('height');
         var weightInput = document.getElementById('weight');
 
-        var width = parseFloat(widthInput.value);
-        var length = parseFloat(lengthInput.value);
-        var height = parseFloat(heightInput.value);
-        var weight = parseFloat(weightInput.value);
+        // Input değerlerini alırken boş olanları 0 olarak ayarla
+        var width = parseFloat(widthInput.value) || 0;
+        var length = parseFloat(lengthInput.value) || 0;
+        var height = parseFloat(heightInput.value) || 0;
+        var weight = parseFloat(weightInput.value) || 0;
 
         var volume = width * length * height;
 
         var shippingCost;
 
         if (weight <= 0 || volume <= 0) {
-            alert("Lütfen geçerli bir ağırlık ve hacim girin.");
+            shippingCost = 0;
             return;
         }
 
@@ -29,6 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
             shippingCost = 5 + (weight - 1) * 4; 
         }
 
-        document.getElementById('result').textContent =  shippingCost.toFixed(2);
+        document.getElementById('result').textContent = shippingCost.toFixed(2);
     });
 });
+
