@@ -59,7 +59,10 @@ registerForm.addEventListener('submit', async (e) => {
 
     if (!response.ok) {
       throw new Error('Registration failed.');
+      
     }
+
+    // window.location.href = "index.html";
 
   } catch (error) {
     console.error(error);

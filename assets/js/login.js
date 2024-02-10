@@ -1,37 +1,47 @@
-document.getElementById('myForm').addEventListener('submit', function(event) {
-    event.preventDefault();
+// login
+const loginForm = document.getElementById('loginForm');
 
-    const email = document.getElementById('Email').value;
-    const password = document.getElementById('Password').value;
+loginForm.addEventListener('submit', async (e) => {
+  e.preventDefault();
 
-    if (email === '' || password === '') {
-        if (email === '') {
-            document.querySelector('.email .error').style.display = 'block';
-        } else {
-            document.querySelector('.email .error').style.display = 'none';
-        }
+  const email = document.getElementById('Email').value.trim();
+  const password = document.getElementById('Password').value.trim();
 
-        if (password === '') {
-            document.querySelector('.password .error').style.display = 'block';
-        } else {
-            document.querySelector('.password .error').style.display = 'none';
-        }
-    } else {
-        // login logic
-        alert('Login olundu');
+  const emailError = document.querySelector('.email .error');
+  const passwordError = document.querySelector('.password .error');
 
-        // modal logic
-        const modalWrapper = document.querySelector('.modal-wrapper');
-        modalWrapper.style.display = 'none';
+  if (email === "") {
+    emailError.style.display = "block";
+} else {
+    emailError.style.display = "none";
+}
+
+if (password === "") {
+    passwordError.style.display = "block";
+} else {
+    passwordError.style.display = "none";
+}
+
+if (email === "" || password === "") {
+    return;
+}
+
+  try {
+    const response = await fetch('http://localhost:3000/register');
+    const users = await response.json();
+
+    const user = users.find(
+      (user) => user.email === email && user.password === password
+    );
+
+    if (!user) {
+      throw new Error('Invalid email or password.');
     }
-});
 
-document.querySelector('.reset').addEventListener('click', function() {
-    const modalWrapper = document.querySelector('.modal-wrapper');
-    modalWrapper.style.display = 'block';
-});
+    window.location.href = 'index.html';
 
-document.getElementById('close-modal').addEventListener('click', function() {
-    const modalWrapper = document.querySelector('.modal-wrapper');
-    modalWrapper.style.display = 'none';
+  } catch (error) {
+    console.error(error);
+    alert('Giriş uğursuz oldu. E-poçt və parolunuzu yoxlayın və yenidən cəhd edin.');
+  }
 });

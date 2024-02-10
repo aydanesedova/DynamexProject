@@ -229,6 +229,14 @@
       "phone": "11",
       "email": "sd2d2n2qh@code.edu.az",
       "message": "Salam"
+    },
+    {
+      "id": "61e2",
+      "name": "1111",
+      "surname": "1111",
+      "phone": "11111",
+      "email": "11111@gmail",
+      "message": "Hello"
     }
   ],
   "register": [
@@ -256,40 +264,6 @@
       "address": "55555555555",
       "password": "55555555555",
       "confPassword": "55555555555"
-    },
-    {
-      "id": "4f88",
-      "name": "Ayhan",
-      "surname": "Esedov",
-      "email": "aydan@gmail.com",
-      "phoneNumber": "050null",
-      "birthDate": "2222-02-22",
-      "nationality": "resident",
-      "idType": "AZE",
-      "idNumber": "22222222",
-      "idPin": "2222222",
-      "city": "AGC",
-      "branch": "Ganaja",
-      "address": "222222222222222222",
-      "password": "222222222222222222",
-      "confPassword": "222222222222222222"
-    },
-    {
-      "id": "2d6b",
-      "name": "Aydan",
-      "surname": "Esedova",
-      "email": "sd2d2n2qh@code.edu.az",
-      "phoneNumber": "050null",
-      "birthDate": "2222-02-22",
-      "nationality": "resident",
-      "idType": "AZE",
-      "idNumber": "11111111",
-      "idPin": "1111111",
-      "city": "AGS",
-      "branch": "Ganaja",
-      "address": "11111111111111",
-      "password": "11111111111111",
-      "confPassword": "11111111111111"
     }
   ]
 }
