@@ -1,4 +1,3 @@
-// login
 const loginForm = document.getElementById('loginForm');
 
 loginForm.addEventListener('submit', async (e) => {
@@ -42,11 +41,28 @@ if (email === "" || password === "") {
 
   } catch (error) {
     console.error(error);
-    alert('Giriş uğursuz oldu. E-poçt və parolunuzu yoxlayın və yenidən cəhd edin.');
+    document.getElementById('modal-wrap').style.display = 'block';
   }
 });
 
 
 
 
+document.addEventListener("DOMContentLoaded", function() {
+  const userData = JSON.parse(localStorage.getItem("user"));
+
+  if (userData && userData.length > 0) {
+    // Assuming that the first item in the array is the user object
+    let user = userData[0];
+
+    // Access the "firstname" property from the user object
+    let userName = user.name;
+
+    // Display the firstname in the paragraph element
+    document.getElementById("userName").textContent = userName;
+} else {
+    // If userData is not available or doesn't have any users, handle it accordingly
+    document.getElementById("userName").textContent = "";
+}
+});
 
