@@ -118,15 +118,6 @@
       "link": "https://www.trendyol.com/sr?wb=37&os=1&sk=1"
     },
     {
-      "id": "14",
-      "image": "https://cdn.dsmcdn.com/ty996/product/media/images/prod/SPM/PIM/20230908/04/dc4baad2-19c9-3b69-8d57-d0a2e11e93e6/1_org_zoom.jpg",
-      "name": "Baskılı Pijama Takımı",
-      "title": "pijama",
-      "marka": "Penti",
-      "price": 653,
-      "link": "https://www.trendyol.com/"
-    },
-    {
       "id": "15",
       "image": "https://cdn.dsmcdn.com/ty996/product/media/images/prod/SPM/PIM/20230906/17/3b4f9213-b653-3225-abf7-9122830b9354/1_org_zoom.jpg",
       "name": "Kapüşonlu ceket",
@@ -192,51 +183,28 @@
   ],
   "comment": [
     {
-      "id": "1",
+      "id": "f80f",
       "name": "Aydan",
-      "surname": "Esed",
-      "phone": "704058363",
-      "email": "aydanesedova@gmail.com",
+      "surname": "Esedova",
+      "phone": "0704058363",
+      "email": "sd2d2n2qh@code.edu.az",
       "message": "Salam"
     },
     {
-      "id": "4a04",
-      "name": "Salam",
+      "id": "7b8f",
+      "name": "Leyla",
+      "surname": "Mirzeyeva",
+      "phone": "777",
+      "email": "aydan@gmail.com",
+      "message": "Hello"
+    },
+    {
+      "id": "5342",
+      "name": "Aydan",
       "surname": "Esedova",
       "phone": "777",
-      "email": "sd2d2n2qh@code.edu.az",
-      "message": "Salam"
-    },
-    {
-      "id": "33b2",
-      "name": "Aydan",
-      "email": "camal@camal.com"
-    },
-    {
-      "id": "6c13",
-      "name": "Aydan",
-      "email": "aydan@gmail.com"
-    },
-    {
-      "id": "fa1d",
-      "name": "Leyla",
-      "email": "lievaleyla782@gmail.com"
-    },
-    {
-      "id": "f85f",
-      "name": "Aynure",
-      "surname": "Huseynova",
-      "phone": "11",
-      "email": "sd2d2n2qh@code.edu.az",
-      "message": "Salam"
-    },
-    {
-      "id": "61e2",
-      "name": "1111",
-      "surname": "1111",
-      "phone": "11111",
-      "email": "11111@gmail",
-      "message": "Hello"
+      "email": "aydan@gmail.com",
+      "message": "weqwdqw"
     }
   ],
   "register": [

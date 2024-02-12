@@ -45,3 +45,8 @@ if (email === "" || password === "") {
     alert('Giriş uğursuz oldu. E-poçt və parolunuzu yoxlayın və yenidən cəhd edin.');
   }
 });
+
+
+
+
+
