@@ -24,8 +24,10 @@
 <body>
     <header>
         <div class="logosec">
-            <div class="logo"><a href="http://127.0.0.1:5502/pages/index.html"><img src="/adminPanel/logo (5).svg" alt=""></a></div>
-            <img src="/adminPanel/hamburger_button_menu_icon_155296.png" class="icn menuicn" id="menuicn" alt="menu-icon">
+            <div class="logo"><a href="http://127.0.0.1:5502/pages/index.html"><img src="/adminPanel/logo (5).svg"
+                        alt=""></a></div>
+            <img src="/adminPanel/hamburger_button_menu_icon_155296.png" class="icn menuicn" id="menuicn"
+                alt="menu-icon">
 
         </div>
         <div class="message">
@@ -52,15 +54,15 @@
                             <h3 style="font-size: 20px; margin-top: 7px;">Best Seller</h3>
                         </div>
                     </a>
-                    
 
-                    <div class="nav-option option3">
+
+                    <!-- <div class="nav-option option3">
                         <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183320/5.png"
                             class="nav-img" alt="report">
                         <h3> Report</h3>
-                    </div>
+                    </div> -->
 
-                    <div class="nav-option option4">
+                    <!-- <div class="nav-option option4">
                         <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183321/6.png"
                             class="nav-img" alt="institution">
                         <h3> Institution</h3>
@@ -82,12 +84,40 @@
                         <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183321/7.png"
                             class="nav-img" alt="logout">
                         <h3>Logout</h3>
-                    </div>
+                    </div> -->
 
                 </div>
             </nav>
         </div>
         <div class="main">
+            <div class="report-container">
+                <div class="report-header">
+                    <h1 class="recent-Articles">Best Seller</h1>
+                </div>
+                <div class="input-title searchDiv">
+                    <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" type="text" id="serachInput" placeholder="Search...">
+                </div>
+
+                <div class="report-body">
+                    <div class="report-topic-heading">
+                        <h3 class="t-op">Image</h3>
+                        <h3 class="t-op">Name</h3>
+                        <h3 style="display: flex;
+                        align-items: center;
+                        justify-content: star;width: 140px;" class="t-op">Marka</h3>
+                        <h3 style="display: flex;
+                        align-items: center;width: 200px;
+                        justify-content: center;padding-right: 2rem;" class="t-op">Price</h3>
+                        <h3 class="t-op" style="display: flex;
+                        justify-content: center;width: 100px;">Delete</h3>
+                    </div>
+
+                </div>
+                <div id="best_seller">
+
+                </div>
+            </div>
             <div class="container">
                 <h2>Add Products</h2>
                 <form id="contact-form">
@@ -113,34 +143,6 @@
                     </div>
                     <button type="submit" id="addProducts">Add products</button>
                 </form>
-            </div>
-            <div class="report-container">
-                <div class="report-header">
-                    <h1 class="recent-Articles">Best Seller</h1>
-                </div>
-                <div class="input-title searchDiv">
-                    <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    <input type="text" type="text" id="serachInput" placeholder="Search...">    
-                </div>
-
-                <div class="report-body">
-                    <div class="report-topic-heading">
-                        <h3 class="t-op">Image</h3>
-                        <h3 class="t-op">Name</h3>
-                        <h3 style="display: flex;
-                        align-items: center;
-                        justify-content: star;width: 140px;" class="t-op">Marka</h3>
-                        <h3 style="display: flex;
-                        align-items: center;width: 200px;
-                        justify-content: center;padding-right: 2rem;" class="t-op">Price</h3>
-                        <h3 class="t-op" style="display: flex;
-                        justify-content: center;width: 100px;">Delete</h3>
-                    </div>
-
-                </div>
-                <div id="best_seller">
-
-                </div>
             </div>
 
         </div>

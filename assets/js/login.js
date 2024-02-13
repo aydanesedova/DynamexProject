@@ -11,19 +11,19 @@ loginForm.addEventListener('submit', async (e) => {
 
   if (email === "") {
     emailError.style.display = "block";
-} else {
+  } else {
     emailError.style.display = "none";
-}
+  }
 
-if (password === "") {
+  if (password === "") {
     passwordError.style.display = "block";
-} else {
+  } else {
     passwordError.style.display = "none";
-}
+  }
 
-if (email === "" || password === "") {
+  if (email === "" || password === "") {
     return;
-}
+  }
 
   try {
     const response = await fetch('http://localhost:3000/register');
@@ -35,9 +35,10 @@ if (email === "" || password === "") {
 
     if (!user) {
       throw new Error('Invalid email or password.');
-    }
 
+    }
     window.location.href = 'index.html';
+
 
   } catch (error) {
     console.error(error);
@@ -46,23 +47,16 @@ if (email === "" || password === "") {
 });
 
 
+document.addEventListener('DOMContentLoaded', function () {
+  try {
+    var loggedInUser = JSON.parse(localStorage.getItem("loginUser"));
+    if (loggedInUser && typeof loggedInUser === 'object' && loggedInUser.name) {
+      document.querySelectorAll(".login-button").forEach(function (button) {
+        button.textContent = loggedInUser.name;
+      });
+    }
+  } catch (e) {
+    console.error("Error parsing loggedInUser from localStorage", e);
 
-
-document.addEventListener("DOMContentLoaded", function() {
-  const userData = JSON.parse(localStorage.getItem("user"));
-
-  if (userData && userData.length > 0) {
-    // Assuming that the first item in the array is the user object
-    let user = userData[0];
-
-    // Access the "firstname" property from the user object
-    let userName = user.name;
-
-    // Display the firstname in the paragraph element
-    document.getElementById("userName").textContent = userName;
-} else {
-    // If userData is not available or doesn't have any users, handle it accordingly
-    document.getElementById("userName").textContent = "";
-}
+  }
 });
-

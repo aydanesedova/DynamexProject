@@ -24,7 +24,7 @@ const renderData = async () => {
     <h6 style="display: flex;
     align-items: center;
     justify-content: center;">${item.phone}</h6>
-    <h6 style="display: flex;
+    <h6 class="email" style="display: flex;
     align-items: center; width:200px;justify-content: start;">${item.email}</h6>
     <h6>${item.message}</h6>
     `;

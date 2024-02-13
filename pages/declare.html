@@ -4,43 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width,  initial-scale=1.0">
     <link rel="shortcut icon" href="/assets/imgs/main/favicon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/shared.css">
-    <link rel="stylesheet" href="/assets/css/login.css">
-    <title>Daxil ol</title>
+    <link rel="stylesheet" href="/assets/css/declare.css">
+    <title>Beyan</title>
 </head>
 
 <body>
-    <div class="modal-wrapper col-5" style="display: none;" id="modal-wrap">
-        <div class="modal">
-            <div class="modal-cont">
-                <div class="close" id="close-modal">
-                    <span class="iconify" data-icon="ant-design:close-circle-outlined" data-height="24"></span>
-                </div>
-                <div class="m-header">
-                    <span class="m-title">
-                        Şifrəni unutmusunuz?
-                    </span>
-                    <p class="m-hint">
-                        Şifrənizin yenilənməsi üçün email adresinizi daxil edin.
-                    </p>
-                </div>
-                <div class="m-body">
-                    <form action="" class="">
-                        <input type="email" required placeholder="Email">
-                        <div class="btn-wrap d-flex justify-content-center">
-                            <button class="register btn" type="submit">
-                                Göndər
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
     <header>
         <div class="top-header py-2">
             <div class="container">
@@ -100,7 +76,7 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./contact.html">Əlaqə</a>
                         </li>
-                        <a href="./login.html" class="cart">
+                        <a href="#" class="cart">
                             <span class="iconify" data-icon="ic:outline-shopping-cart"
                                 style="position: relative;"></span>
                             <span class="item-count">0</span>
@@ -114,55 +90,114 @@
         </nav>
     </header>
     <main>
-        <section id="intro">
+        <section id="dashboard">
             <div class="container">
                 <div class="row">
-                    <div class="faq-title d-flex justify-content-center">
-                        <b>Dynamex-ə xoş gəlmişsiniz!</b>
+                    <div class="col-3">
+                        <div class="dashboard-list">
+                            <div class="userAbout">
+
+                            </div>
+                            <a href="#" class="declaration">
+                                <i class="fa-solid fa-plus"></i> Bəyan et</a>
+                            <a href="#" class="invite">
+                                <i class="fa-solid fa-user-plus"></i> Dostunu dəvət et
+                            </a>
+                            <div class="store">
+                                <ul>
+                                    <li><a href=""><i class="fa-solid fa-box"></i> Bağlamalar</a></li>
+                                    <h2>Mağazalar</h2>
+                                    <li><a href="https://www.defacto.com/de-de"><i
+                                                class="fa-solid fa-chevron-right"></i> Defacto</a>
+
+                                    </li>
+                                    <li><a href="https://www.bershka.com/az/h-woman.html"><i
+                                                class="fa-solid fa-chevron-right"></i> Bershka</a>
+
+                                    </li>
+                                    <li><a href="https://www.zara.com/tr/en/"><i class="fa-solid fa-chevron-right"></i>
+                                            Zara</a>
+
+                                    </li>
+                                    <li><a href="https://www.stradivarius.com/ww/"><i
+                                                class="fa-solid fa-chevron-right"></i> Stradivarius</a>
+
+                                    </li>
+                                    <li><a href="https://shop.mango.com/tr/kadin"><i
+                                                class="fa-solid fa-chevron-right"></i> Mango</a>
+
+                                    </li>
+                                    <li><a href="https://www.pullandbear.com/tr/en/"><i
+                                                class="fa-solid fa-chevron-right"></i> Pull&Bear</a>
+
+                                    </li>
+                                    <li><a href="https://us.shein.com/"><i class="fa-solid fa-chevron-right"></i>
+                                            Shein</a>
+                                    </li>
+                                    <li><a href="https://www.apple.com/az/"><i class="fa-solid fa-chevron-right"></i>
+                                            Apple</a>
+                                    </li>
+                                    <li><a href="https://global.lacoste.com/en/homepage"><i
+                                                class="fa-solid fa-chevron-right"></i> Lacoste</a>
+                                    </li>
+                                    <li><a href="https://www.armani.com/en-us"><i class="fa-solid fa-chevron-right"></i>
+                                            Armani</a>
+                                    </li>
+                                    <li><a href="https://www.armani.com/en-us"><i
+                                                class="fa-solid fa-arrow-right-from-bracket"></i><button>Çıxış</button></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="faq-description d-flex justify-content-center">
-                        <p>Heabınıza daxil olun!</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="login">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 col-md-12 left">
-                        <div class="title">
-                            <b>Daxil ol</b>
-                        </div>
-                        <div class="form">
-                            <form class="form-group" id="loginForm">
-                                <div class="email">
-                                    <label for="Email">Email</label> <br>
-                                    <input type="email" id="Email"> <br>
-                                    <span class="error" style="display: none;font-size: 11px;color: #FD475D;">Email boş qoyula bilməz</span>
+                    <div class="col-9">
+                        <div class="packings">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="packings-about">
+                                            <div class="declare-value">
+                                                <i class="fa-solid fa-turkish-lira-sign"></i>
+                                                <div class="declare-about">
+                                                    <span>
+                                                        Sifariş balansım
+                                                    </span>
+                                                    <p>0.00 TL</p>
+                                                </div>
+                                            </div>
+                                            <div class="declare-value">
+                                                <i class="fa-solid fa-money-bill moneyIcon"></i>
+                                                <div class="declare-about money">
+                                                    <span>
+                                                        Daşınma balansım
+                                                    </span>
+                                                    <p>0.00 $</p>
+                                                </div>
+                                            </div>
+                                            <div class="declare-value">
+                                                <i class="fa-solid fa-box boxIcon"></i>
+                                                <div class="declare-about box">
+                                                    <span>
+                                                        Bağlamalar
+                                                    </span>
+                                                    <p>0</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="myOrders">
+                                            <a href="declare.html"><h2>Aktiv bağlamalarım</h2></a>
+                                        <div class="declare-customer">
+
+                                        </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="password">
-                                    <label for="Password">Şifrə</label> <br>
-                                    <input type="password" id="Password"> <br>
-                                    <span class="error" style="display: none;font-size: 11px;color: #FD475D;">Şifrə boş qoyula bilməz</span>
-                                </div>
-                                <div class="remember">
-                                    <input type="checkbox" id="Remember">
-                                    <label for="Remember">Məni xatırla</label>
-                                </div>
-                                <button type="submit">Daxil ol</button>
-                                <span  class="reset"
-                                    style="cursor: pointer; font-size: 13px; font-weight: 500;">Şifrəni yenilə</span>
-                            </form>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-5 right">
-                        <div class="login-image-wrap">
-                            <img src="/assets/imgs/login/login.svg" alt="Login Image" class="login-image">
-                        </div>
-                        <div class="text">
-                            <span>Hesabınız yoxdur?</span>
-                            <a href="register.html">Qeydiyyatdan keçin!</a>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -289,7 +324,6 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
@@ -301,7 +335,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/assets/js/shared.js"></script>
     <script src="/assets/js/reset-modal.js"></script>
-    <script src="/assets/js/login.js"></script>
 </body>
 
 </html>

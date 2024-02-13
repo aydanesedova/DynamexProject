@@ -29,7 +29,7 @@ registerForm.addEventListener('submit', async (e) => {
     name: formData.get('name'),
     surname: formData.get('surname'),
     email: formData.get('email'),
-    phoneNumber: formData.get('phone-number-code') + formData.get('phone-number-end'),
+    phoneNumber: formData.get('phone-number-code') + formData.get('phone-number'),
     birthDate: formData.get('birth-date'),
     nationality: formData.get('nationality'),
     idType: formData.get('id-type'),
@@ -41,8 +41,6 @@ registerForm.addEventListener('submit', async (e) => {
     password: formData.get('password'),
     confPassword: formData.get('conf-password'),
   };
-
-  // Validate password and confirmPassword fields
   if (formObject.password !== formObject.confPassword) {
     alert('Şifrə dəqiq təkrar olmalıdır.');
     return;
@@ -62,7 +60,7 @@ registerForm.addEventListener('submit', async (e) => {
       
     }
 
-    // window.location.href = "index.html";
+    window.location.href = "index.html";
 
   } catch (error) {
     console.error(error);
