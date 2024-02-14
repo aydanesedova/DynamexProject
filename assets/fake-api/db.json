@@ -218,9 +218,9 @@
     },
     {
       "id": "4adc",
-      "name": "FIlyar",
+      "name": "Filyar",
       "surname": "Mirzeyeva",
-      "email": "11111111111111111111@gmail",
+      "email": "filyarmirzayeva@gmail",
       "phoneNumber": "050null",
       "birthDate": "275760-05-05",
       "nationality": "resident",
@@ -230,7 +230,7 @@
       "city": "AGS",
       "branch": "28may",
       "address": "55555555555",
-      "password": "55555555555",
+      "password": "filyar1212",
       "confPassword": "55555555555"
     },
     {
@@ -321,7 +321,6 @@
   ],
   "declare": [
     {
-      "declared": true,
       "name": "Ayaqqabı",
       "marka": "Pullbear",
       "price": "1304.99",
@@ -337,7 +336,6 @@
       "id": "1"
     },
     {
-      "declared": true,
       "name": "Ayaqqabı",
       "marka": "Pullbear",
       "price": "1100.99",

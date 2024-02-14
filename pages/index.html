@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/assets/imgs/main/favicon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -45,7 +48,15 @@
                                         style="color: black;"></span>
                                 </a>
                                 <a href="./login.html" class="sign-in">Daxil ol</a>
-                                <a href="./register.html" class="sign-up">Qeydiyyat</a>
+                                <a href="./register.html" class="sign-up" id="signUp">Qeydiyyat</a>
+                                <p class="login-button"></p>
+                                <div class="myAccount">
+                                    <div class="userLogout">
+                                        <a href="/pages/declare.html"><button><i class="fa-regular fa-user"></i> Hesabım</button></a>
+                                        <a href=""><button id="logout"><i class="fa-solid fa-arrow-right-from-bracket"></i> Çıxış</button></a>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -79,15 +90,15 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./contact.html">Əlaqə</a>
                         </li>
-                        <a href="./login.html" class="cart">
+                        <a href="login.html" class="cart">
                             <span class="iconify" data-icon="ic:outline-shopping-cart"
                                 style="position: relative;"></span>
                             <span class="item-count">0</span>
                         </a>
                         <div class="bottom-header-right-side">
-                            <a href="./login.html" class="sign-in">Daxil ol</a>
+                            <a href="./login.html" id="navSign" class="sign-in">Daxil ol</a>
                         </div>
-                        <!-- <button id="login-button"></button> -->
+
                     </ul>
                 </div>
             </div>

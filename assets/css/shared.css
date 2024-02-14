@@ -622,6 +622,55 @@ body {
   background-color: #fd475d;
   font-weight: 500;
 }
+.top-header .container .top-header-right-side .login-button {
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+}
+.top-header .container .top-header-right-side .myAccount {
+  display: none;
+  width: 7%;
+  background-color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 70px;
+  right: 150px;
+  z-index: 1;
+}
+.top-header .container .top-header-right-side .myAccount .userLogout {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.top-header .container .top-header-right-side .myAccount .userLogout a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.top-header .container .top-header-right-side .myAccount .userLogout button {
+  border: none;
+  background-color: transparent;
+  color: #606070;
+  font-size: 14px;
+  width: 100%;
+  transition: 0.3s ease;
+}
+.top-header .container .top-header-right-side .myAccount .userLogout button:hover {
+  background-color: #e4e4e6;
+}
+.top-header .container .top-header-right-side .myAccount .userLogout button i {
+  font-size: 14px;
+}
 
 nav {
   min-height: 120px;
