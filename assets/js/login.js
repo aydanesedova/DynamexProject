@@ -37,7 +37,7 @@ loginForm.addEventListener('submit', async (e) => {
       throw new Error('Invalid email or password.');
 
     }
-    window.location.href = 'index.html';
+    window.location.href = 'declare.html';
 
 
   } catch (error) {
@@ -47,16 +47,35 @@ loginForm.addEventListener('submit', async (e) => {
 });
 
 
-document.addEventListener('DOMContentLoaded', function () {
-  try {
-    var loggedInUser = JSON.parse(localStorage.getItem("loginUser"));
-    if (loggedInUser && typeof loggedInUser === 'object' && loggedInUser.name) {
-      document.querySelectorAll(".login-button").forEach(function (button) {
-        button.textContent = loggedInUser.name;
-      });
-    }
-  } catch (e) {
-    console.error("Error parsing loggedInUser from localStorage", e);
+// document.addEventListener('DOMContentLoaded', function () {
+//   try {
+//     var loggedInUser = JSON.parse(localStorage.getItem("loginUser"));
+//     if (loggedInUser && typeof loggedInUser === 'object' && loggedInUser.name) {
+//       document.querySelectorAll(".login-button").forEach(function (button) {
+//         button.textContent = loggedInUser.name;
+//       });
+//     }
+//   } catch (e) {
+//     console.error("Error parsing loggedInUser from localStorage", e);
 
-  }
-});
+//   }
+// });
+
+
+
+
+// function signIn() {
+//   const loginEmail = document.getElementById('loginEmail').value
+//   const loginPassword = document.getElementById('loginPassword').value
+
+//   // Eğer login işlemi başarılıysa
+//   if (loginEmail === 'example@example.com' && loginPassword === 'password') {
+//     window.location.href = 'index.html'; // Index sayfasına yönlendir
+//   } else {
+//     alert('Invalid credentials. Please try again.');
+//   }
+// }
+
+
+
+

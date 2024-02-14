@@ -211,12 +211,14 @@
   background-color: #15B2EC;
 }
 #dashboard .packings .myOrders {
-  background-color: #fff;
+  background-color: transparent;
   width: 100%;
   min-height: 500px;
   border-radius: 10px;
   padding: 1rem;
-  box-shadow: 0 12px 24px 0 rgba(44, 44, 81, 0.06);
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
 }
 #dashboard .packings .myOrders h2 {
   font-size: 21px;
@@ -229,9 +231,78 @@
   padding: 1rem;
 }
 #dashboard .packings .myOrders .declare-customer {
-  background-color: #15B2EC;
   width: 38%;
+  gap: 10px;
+  flex-direction: column;
   min-height: 330px;
-  background-color: #F7F7F7;
+  background-color: #fff;
+  padding: 1rem;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   border-radius: 10px;
+}
+#dashboard .packings .myOrders .declare-customer .declare {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+#dashboard .packings .myOrders .declare-customer .declare h6 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2c2c51;
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#dashboard .packings .myOrders .declare-customer .declare h6 .declareButton {
+  border: none;
+  background-color: #FD475D;
+  color: #fff;
+  width: 35%;
+  height: 30px;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+#dashboard .packings .myOrders .declare-customer .declare h6 .declareButton:hover {
+  background-color: #e34659;
+}
+#dashboard .packings .myOrders .declare-customer .declare p {
+  font-size: 11px;
+  font-weight: 700;
+  color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#dashboard .packings .myOrders .declare-customer .declare p span {
+  font-family: 300;
+}
+#dashboard .packings .myOrders .declare-customer .declare p .imageButton {
+  border: none;
+  background-color: #fff;
+  width: 30%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2c2c51;
+  font-weight: 700;
+}
+#dashboard .packings .myOrders .declare-customer .declare .whereButton {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  background-color: #fff;
+  color: black;
+  height: 30px;
+  box-shadow: 0 12px 24px 0 rgba(44, 44, 81, 0.06);
+  width: 100%;
 }
