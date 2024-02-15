@@ -17,7 +17,6 @@ $(document).ready(function () {
 
 
 
-
 // register
 const registerForm = document.getElementById('registerForm');
 

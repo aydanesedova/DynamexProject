@@ -49,8 +49,7 @@ loginForm.addEventListener('submit', async (e) => {
     }
     localStorage.setItem("loggedin", JSON.stringify(user))
     window.location.href = 'declare.html';
-    // Kullanıcıyı index.html sayfasına yönlendir
-    // window.location.href = "/pages/index.html?username=" + encodeURIComponent(user.name + " " + user.surname);
+
 
 
   } catch (error) {

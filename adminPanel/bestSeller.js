@@ -19,7 +19,7 @@ const renderData = async () => {
     miniDiv.className = "miniDiv";
     miniDiv.innerHTML = `
         <img src="${item.image}" alt="${item.name}">
-        <p style="max-width:190px;text-align:center">${item.name}</p>
+        <p style="max-width:190px;text-align:center">${item.title}</p>
         <p>${item.marka}</p>
         <p>${item.price} TL</p>
         <button onclick="deleteProduct(${item.id})" style="border: none;background-color: #E53935;color: #fff;width: 90px;height: 35px;border-radius: 30px;">Delete</button>
@@ -56,7 +56,7 @@ let idinp = document.getElementById("id");
 let markainp = document.getElementById("marka");
 let imageinp = document.getElementById("image");
 let priceinp = document.getElementById("price");
-let titleinp = document.getElementById("title");
+let titleinp = document.getElementById("titleInp");
 let addProducts = document.getElementById("addProducts");
 let myForm = document.getElementById("contact-form");
 
@@ -117,3 +117,7 @@ const searchByName = async (name) => {
 serachInput.addEventListener("input", (e) => {
   searchByName(e.target.value);
 });
+
+
+
+

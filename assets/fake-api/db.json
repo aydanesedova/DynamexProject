@@ -333,6 +333,23 @@
       "address": "33333333333333333",
       "password": "33333333333333333",
       "confPassword": "33333333333333333"
+    },
+    {
+      "id": "ebb2",
+      "name": "Ayhan",
+      "surname": "Esedov",
+      "email": "ayhan@gmail.com",
+      "phoneNumber": "0703052340",
+      "birthDate": "2006-01-15",
+      "nationality": "resident",
+      "idType": "AZE",
+      "idNumber": "73456784",
+      "idPin": "4d2n2ah",
+      "city": "BA",
+      "branch": "28may",
+      "address": "48ci mehelle",
+      "password": "ayhan2006",
+      "confPassword": "ayhan2006"
     }
   ],
   "declare": [
@@ -342,7 +359,7 @@
       "marka": "Pullbear",
       "price": "1100.99",
       "where": "TÜRKİYƏ",
-      "tracking": "112214455",
+      "tracking": "116754455",
       "date": "07 fevral, 2024",
       "weight": "1.0000 kq",
       "customerName": "Aydan",
@@ -354,12 +371,11 @@
       "status": "Gömrük yoxlanışında"
     },
     {
-      "declared": true,
       "name": "Ayaqqabı",
       "marka": "Pullbear",
       "price": "1100.99",
       "where": "TÜRKİYƏ",
-      "tracking": "112214455",
+      "tracking": "223214455",
       "date": "07 fevral, 2024",
       "weight": "1.0000 kq",
       "customerName": "Aydan",
@@ -371,12 +387,11 @@
       "status": "Çeşidləmə"
     },
     {
-      "declared": true,
       "name": "Ayaqqabı",
       "marka": "Pullbear",
       "price": "1100.99",
       "where": "TÜRKİYƏ",
-      "tracking": "112214455",
+      "tracking": "3456457906",
       "date": "07 fevral, 2024",
       "weight": "1.0000 kq",
       "customerName": "Aydan",
@@ -384,8 +399,7 @@
       "phone": "0704058363",
       "email": "aydan80@gmail.com",
       "image": "https://166cargo.s3.eu-central-1.amazonaws.com/2024-02-07-65c34bc16cd45.jpeg",
-      "id": "3",
-      "status": "Gömrük yoxlanışında"
+      "id": "3"
     }
   ]
 }

@@ -68,8 +68,6 @@ checkUser()
 
 
 
-
-
 // Hesabim ve cixis divi
 document.addEventListener("DOMContentLoaded", function () {
     const loginButton = document.querySelector('.login-button');
@@ -91,8 +89,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
-
 // Eger login olunubsa cart iconuna click etdikde declare.html gotursun 
 // Eger login olunmayibsa cart conuna click etdikde login.html gotursun
 document.addEventListener('DOMContentLoaded', function() {
@@ -103,9 +99,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Kullanıcı giriş yapmışsa
         if (localStorage.getItem('loggedin')) {
-            window.location.href = "declare.html"; // declare.html sayfasına yönlendir
+            window.location.href = "declare.html";
         } else {
-            window.location.href = "login.html"; // login.html sayfasına yönlendir
+            window.location.href = "login.html";
         }
     });
 });
+
+
+

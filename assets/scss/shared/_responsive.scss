@@ -48,7 +48,19 @@
 @media only screen and (max-width: 999px) {
     header {
         .top-header {
-            display: none;
+            .nav{
+                .top-header-left-side{
+                    a{
+                        display: none;
+                       
+                    }
+                }
+                .top-header-right-side{
+                    #lang-all{
+                        display: none;
+                    }
+                }
+            }
         }
 
     }
