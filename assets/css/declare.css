@@ -119,7 +119,7 @@
   color: #FD475D;
 }
 #dashboard .dashboard-list .store ul li a i {
-  font-size: 12px;
+  font-size: 14px;
 }
 #dashboard .dashboard-list .store ul li a button {
   border: none;
@@ -269,7 +269,7 @@
   background-color: #FD475D;
   color: #fff;
   height: 30px;
-  width: 80px;
+  width: 85px;
   font-weight: 500;
   border-radius: 5px;
   font-size: 14px;

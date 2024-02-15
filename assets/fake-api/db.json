@@ -337,8 +337,8 @@
       "tracking": "112214455",
       "date": "07 fevral, 2024",
       "weight": "1.0000 kq",
-      "customerName": "Filyar",
-      "surname": "Mirzeyeva",
+      "customerName": "Aydan",
+      "surname": "Esedova",
       "phone": "0704058363",
       "email": "aydan80@gmail.com",
       "image": "https://166cargo.s3.eu-central-1.amazonaws.com/2024-02-07-65c34bc16cd45.jpeg",
@@ -354,15 +354,16 @@
       "tracking": "112214455",
       "date": "07 fevral, 2024",
       "weight": "1.0000 kq",
-      "customerName": "Filyar",
-      "surname": "Mirzeyeva",
+      "customerName": "Aydan",
+      "surname": "Esedova",
       "phone": "0704058363",
       "email": "aydan80@gmail.com",
       "image": "https://166cargo.s3.eu-central-1.amazonaws.com/2024-02-07-65c34bc16cd45.jpeg",
       "id": "2",
-      "status": "Yerli anbar"
+      "status": "Çeşidləmə"
     },
     {
+      "declared": true,
       "name": "Ayaqqabı",
       "marka": "Pullbear",
       "price": "1100.99",
@@ -370,12 +371,13 @@
       "tracking": "112214455",
       "date": "07 fevral, 2024",
       "weight": "1.0000 kq",
-      "customerName": "Filyar",
-      "surname": "Mirzeyeva",
+      "customerName": "Aydan",
+      "surname": "Esedova",
       "phone": "0704058363",
       "email": "aydan80@gmail.com",
       "image": "https://166cargo.s3.eu-central-1.amazonaws.com/2024-02-07-65c34bc16cd45.jpeg",
-      "id": "3"
+      "id": "3",
+      "status": "Gömrük yoxlanışında"
     }
   ]
 }
