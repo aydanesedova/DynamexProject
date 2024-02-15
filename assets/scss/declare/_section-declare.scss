@@ -8,10 +8,10 @@
 
     .dashboard-list {
         background-color: #fff;
-        min-height: 755px;
+        min-height:700px;
         padding: 1rem;
-        margin: 1rem;
         float: left;
+        margin-top: 1rem;
         display: flex;
         align-items: center;
         // justify-content: center;
@@ -23,7 +23,11 @@
         .userAbout {
             min-height: 100px;
             width: 100%;
-            background-color: bisque;
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            font-weight: 500;font-size: 16px;
+            color: #2c2c51;
         }
 
         .declaration {
@@ -150,7 +154,7 @@
     }
 
     .packings {
-        min-height: 755px;
+        min-height: 700px;
         margin: 1.2rem;
         display: flex;
         // align-items: center;
@@ -257,25 +261,26 @@
             width: 100%;
             min-height: 500px;
             border-radius: 10px;
-            padding: 1rem;
-            // box-shadow: 0 12px 24px 0 rgba(44, 44, 81, 0.06);
             flex-direction: column;
             flex-wrap: wrap;
             display: flex;
-
-            h2 {
-                font-size: 21px;
-                color: #2c2c51;
-                font-family: SegoeSemiBold, sans-serif;
-                font-weight: 600;
-                min-height: 70px;
-                display: flex;
-                align-items: center;
-                padding: 1rem;
-            }
+a{
+    width: 100%;
+    h2 {
+        font-size: 21px;
+        color: #2c2c51;
+        font-family: SegoeSemiBold, sans-serif;
+        font-weight: 600;
+        min-height: 70px;
+        display: flex;
+        align-items: center;
+        // padding: 1rem;
+    }
+}
+          
 
             .declare-customer {
-                width: 38%;
+                width: 270px;
                 gap: 10px;
                 flex-direction: column;
                 min-height: 330px;
@@ -301,12 +306,12 @@
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
-                        .declareButton{
+                     .declareButton{
                             border: none;
                             background-color: #FD475D;
                             color: #fff;
-                            width: 35%;
                             height: 30px;
+                            width: 80px;
                             font-weight: 500;
                             border-radius: 5px;
                             font-size: 14px;
@@ -316,7 +321,11 @@
                             }
                         }
                     }
-
+                    .status{
+                        color: red;
+                        font-size: 13px;
+                        font-weight: 500;
+                    }
                     p {
                         font-size: 11px;
                         font-weight: 700;
@@ -341,6 +350,7 @@
                             color: #2c2c51;
                             font-weight: 700;
                         }
+                      
                     }
 
                     .whereButton {

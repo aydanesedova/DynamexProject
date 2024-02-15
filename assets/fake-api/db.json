@@ -205,6 +205,14 @@
       "phone": "777",
       "email": "aydan@gmail.com",
       "message": "weqwdqw"
+    },
+    {
+      "id": "c95f",
+      "name": "Aydan",
+      "surname": "Esedova",
+      "phone": "qwertyui",
+      "email": "sd2d2n2qh@code.edu.az",
+      "message": "qwertyuytrewq"
     }
   ],
   "register": [
@@ -304,7 +312,7 @@
     {
       "id": "ebd3",
       "name": "Aydan",
-      "surname": "Mirzeyeva",
+      "surname": "Esedova",
       "email": "a@gmail.com",
       "phoneNumber": "0505555555",
       "birthDate": "2222-02-22",
@@ -321,19 +329,38 @@
   ],
   "declare": [
     {
+      "declared": true,
       "name": "Ayaqqabı",
       "marka": "Pullbear",
-      "price": "1304.99",
+      "price": "1100.99",
       "where": "TÜRKİYƏ",
       "tracking": "112214455",
       "date": "07 fevral, 2024",
-      "weight": "1.780 kq",
-      "customerName": "Aydan",
-      "surname": "Esedova",
+      "weight": "1.0000 kq",
+      "customerName": "Filyar",
+      "surname": "Mirzeyeva",
       "phone": "0704058363",
       "email": "aydan80@gmail.com",
       "image": "https://166cargo.s3.eu-central-1.amazonaws.com/2024-02-07-65c34bc16cd45.jpeg",
-      "id": "1"
+      "id": "1",
+      "status": "Gömrük yoxlanışında"
+    },
+    {
+      "declared": true,
+      "name": "Ayaqqabı",
+      "marka": "Pullbear",
+      "price": "1100.99",
+      "where": "TÜRKİYƏ",
+      "tracking": "112214455",
+      "date": "07 fevral, 2024",
+      "weight": "1.0000 kq",
+      "customerName": "Filyar",
+      "surname": "Mirzeyeva",
+      "phone": "0704058363",
+      "email": "aydan80@gmail.com",
+      "image": "https://166cargo.s3.eu-central-1.amazonaws.com/2024-02-07-65c34bc16cd45.jpeg",
+      "id": "2",
+      "status": "Yerli anbar"
     },
     {
       "name": "Ayaqqabı",
@@ -348,7 +375,7 @@
       "phone": "0704058363",
       "email": "aydan80@gmail.com",
       "image": "https://166cargo.s3.eu-central-1.amazonaws.com/2024-02-07-65c34bc16cd45.jpeg",
-      "id": "2"
+      "id": "3"
     }
   ]
 }

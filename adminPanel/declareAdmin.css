@@ -143,16 +143,6 @@ header {
     padding: 40px 30px 30px 30px;
 }
 
-
-
-.box-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 50px;
-}
-
 .nav {
     min-height: 91vh;
     width: 250px;
@@ -344,22 +334,26 @@ header {
 
 
 .report-topic-heading,
+
 .item1 {
     width: 100%;
     min-height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
 .t-op {
     font-size: 16px;
-    width: 190px;
+    /* width: 190px; */
+    width: 100%;
     margin-left: 1rem;
     display: flex;
     font-weight: 700;
+    display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
 }
 
 .items {
@@ -385,7 +379,27 @@ header {
     border-radius: 4px;
 }
 
-#best_seller {
+/* #best_seller {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+#declareContainer {
+    display: flex;
+    /* padding: 1rem; */
+    width: 90%;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#declareContainer {
     display: flex;
     padding: 1rem;
     width: 100%;
@@ -395,32 +409,44 @@ header {
     flex-direction: column;
 }
 
-#best_seller,
-.miniDiv {
+#declareContainer,
+.declareDiv {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-between;
 }
 
-.miniDiv img {
-    width: 60px;
-    height: 90px;
-    border-radius: 5px;
-}
 
-.miniDiv p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-    width: 90px;
+.declareDiv p {
+
+    font-size: 16px;
+    width: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.declareDiv h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    width: 170px;
+    align-items: center;
+}
 
+.declareDiv .tracking {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    padding-right: 1.5rem;
+}
+
+.dropdown {
+    margin-top: 10px;
+}
 
 
 @media screen and (max-width: 950px) {
@@ -488,22 +514,6 @@ header {
         padding: 40px 30px 30px 30px;
     }
 
-    .searchbar2 {
-        width: 100%;
-        display: flex;
-        margin: 0 0 40px 0;
-        justify-content: center;
-    }
-
-    .searchbar2 input {
-        width: 250px;
-        height: 42px;
-        border-radius: 50px 0 0 50px;
-        background-color: var(--background-color3);
-        padding: 0 20px;
-        font-size: 15px;
-        border: 2px solid var(--secondary-color);
-    }
 }
 
 .container {
@@ -560,29 +570,39 @@ textarea {
     cursor: pointer;
 }
 
-button:hover {
-    box-shadow: rgb(144, 33, 49) 0px 7px 0px 0px;
+.btn {
+    background-color: #E53935;
+    border: none;
+    transition: 0.3 ease;
 }
 
-button:active {
+.btn:hover {
     background-color: #A12725;
-    /*50, 168, 80*/
-    box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
-    transform: translateY(5px);
-    transition: 200ms;
+
 }
 
+.btn.show {
+    background-color: #a12725;
+}
+
+.declareDiv .declaredValue {
+    display: flex;
+    padding-right: 4rem;
+    align-items: center;
+    justify-content: center;
+
+}
 
 @media screen and (max-width:1100px) {
     .report-body {
         display: none;
     }
 
-    #best_seller {
+    #declareContainer {
         gap: 40px;
     }
 
-    .miniDiv button {
+    .declareDiv button {
         margin-bottom: 1rem;
         display: flex;
         font-size: 10px;
@@ -590,18 +610,23 @@ button:active {
         justify-content: center;
     }
 
-    .miniDiv img {
-        width: 70px;
-        height: 90px;
-        border-radius: 5px;
+
+    .declareDiv h6 {
+        font-size: 10px;
     }
 
-    .miniDiv p {
-        font-size: 10px;
+    .declaredValue .declaredValue {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 140px;
+        padding-right: 5rem;
     }
 }
 
-@media screen and (max-width:555px) {
+
+
+@media screen and (max-width:760px) {
     .report-body {
         display: none;
     }
@@ -618,7 +643,7 @@ button:active {
         color: #fff;
     }
 
-    #best_seller {
+    #declareContainer {
         gap: 40px;
     }
 
@@ -627,8 +652,9 @@ button:active {
         box-shadow: none;
     }
 
-    .miniDiv {
+    .declareDiv {
         display: flex;
+        width: 85%;
         flex-direction: column;
         margin-top: 1rem;
         background-color: #fff;
@@ -639,7 +665,7 @@ button:active {
 
     }
 
-    .miniDiv button {
+    .declareDiv button {
         margin-bottom: 1rem;
         display: flex;
         font-size: 10px;
@@ -647,15 +673,20 @@ button:active {
         justify-content: center;
     }
 
-    .miniDiv img {
-        width: 60px;
-        height: 70px;
-        border-radius: 5px;
+    .declareDiv .declaredValue {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
     }
 
-    .miniDiv p {
-        font-size: 10px;
+    .declareDiv .tracking {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
     }
+
 }
 
 @media screen and (max-width: 490px) {

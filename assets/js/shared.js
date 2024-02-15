@@ -29,6 +29,8 @@ $(window).on("load", function () {
     $('body').css('overflow', 'visible');
 });
 
+
+// UserName header dusmesi
 const userbtn = document.querySelector('.login-button')
 const logout = document.getElementById("logout")
 const signUp = document.getElementById("signUp")
@@ -43,27 +45,32 @@ const checkUser = () => {
         signIn.style.display = "none"
         navSign.style.display = "none"
 
-
     }
 }
 
-
+// UserName silinmesi
 const logOut = () => {
     loggedUser = JSON.parse(localStorage.getItem('loggedin'))
     if (loggedUser) {
         localStorage.removeItem("loggedin")
-
-
+        window.location.href = "index.html"; // Index.html sayfasına yönlendirme
     }
 }
 
-logout.addEventListener('click', logOut)
+const logoutButton = document.getElementById('logout');
+if (logoutButton) {
+    logoutButton.addEventListener('click', logOut);
+}
 
 
 
 checkUser()
 
 
+
+
+
+// Hesabim ve cixis divi
 document.addEventListener("DOMContentLoaded", function () {
     const loginButton = document.querySelector('.login-button');
     const myAccount = document.querySelector('.myAccount');
@@ -83,3 +90,22 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+
+
+
+// Eger login olunubsa cart iconuna click etdikde declare.html gotursun 
+// Eger login olunmayibsa cart conuna click etdikde login.html gotursun
+document.addEventListener('DOMContentLoaded', function() {
+    const cartLink = document.querySelector('.cart');
+
+    cartLink.addEventListener('click', function(event) {
+        event.preventDefault(); // Linkin varsayılan davranışını engelle
+
+        // Kullanıcı giriş yapmışsa
+        if (localStorage.getItem('loggedin')) {
+            window.location.href = "declare.html"; // declare.html sayfasına yönlendir
+        } else {
+            window.location.href = "login.html"; // login.html sayfasına yönlendir
+        }
+    });
+});
